@@ -1,0 +1,9 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 2.1.6
+_src_path: gh:algorandfoundation/algokit-fullstack-template
+author_email: dxarmy22091999@gmail.com
+author_name: Divyanshu_Kumar
+contract_name: hello_world
+preset_name: starter
+project_name: Civitas
+
