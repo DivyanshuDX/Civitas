@@ -128,8 +128,8 @@ Help us build technology that empowers communities everywhere!
 
 ## 📫 Contact
 
-GitHub: [https://github.com/yourusername/civitaas](https://github.com/yourusername/civitaas)  
-Email: your-email@example.com
+GitHub: [https://github.com/DivyanshuDX/Civitas](https://github.com/DivyanshuDX/Civitas)  
+Email: dxarmy22091999@gmail.com.com
 
 ---
 
