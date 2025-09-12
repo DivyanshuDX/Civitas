@@ -1,45 +1,48 @@
-# Civitas
+# 🚀 Civitaas
 
-This starter full stack project has been generated using AlgoKit. See below for default getting started instructions.
 
-## Setup
+**Privacy-first Consent Management for Social Inclusion & Equitable Access to Services**
 
-### Initial setup
-1. Clone this repository to your local machine.
-2. Ensure [Docker](https://www.docker.com/) is installed and operational. Then, install `AlgoKit` following this [guide](https://github.com/algorandfoundation/algokit-cli#install).
-3. Run `algokit project bootstrap all` in the project directory. This command sets up your environment by installing necessary dependencies, setting up a Python virtual environment, and preparing your `.env` file.
-4. In the case of a smart contract project, execute `algokit generate env-file -a target_network localnet` from the `Civitas-contracts` directory to create a `.env.localnet` file with default configuration for `localnet`.
-5. To build your project, execute `algokit project run build`. This compiles your project and prepares it for running.
-6. For project-specific instructions, refer to the READMEs of the child projects:
-   - Smart Contracts: [Civitas-contracts](projects/Civitas-contracts/README.md)
-   - Frontend Application: [Civitas-frontend](projects/Civitas-frontend/README.md)
+---
 
-> This project is structured as a monorepo, refer to the [documentation](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/features/project/run.md) to learn more about custom command orchestration via `algokit project run`.
+## 🌍 About Civitaas
 
-### Subsequently
+Civitaas is a decentralized, open-source platform designed to **empower weaker sections of society** by simplifying access to government services, welfare schemes, healthcare, education, and more — while ensuring privacy and trust.
 
-1. If you update to the latest source code and there are new dependencies, you will need to run `algokit project bootstrap all` again.
-2. Follow step 3 above.
+Many people face barriers such as lack of documentation, limited digital literacy, and bureaucratic challenges. Civitaas integrates with existing identity systems to securely verify documents, manage consent, and help users access services — all while keeping their personal information private and under their control.
 
-## Tools
+Built on the **Algorand blockchain**, Civitaas offers scalable, low-cost, and transparent consent management compliant with global privacy regulations like GDPR and CCPA.
 
-This project makes use of Python and React to build Algorand smart contracts and to provide a base project configuration to develop frontends for your Algorand dApps and interactions with smart contracts. The following tools are in use:
+---
 
-- Algorand, AlgoKit, and AlgoKit Utils
-- Python dependencies including Poetry, Black, Ruff or Flake8, mypy, pytest, and pip-audit
-- React and related dependencies including AlgoKit Utils, Tailwind CSS, daisyUI, use-wallet, npm, jest, playwright, Prettier, ESLint, and Github Actions workflows for build validation
+## 🌟 Why Civitaas?
 
-### VS Code
+✔ **Empowerment:** Enable access to services for underserved communities  
+✔ **Privacy-first:** End-to-end encryption, zero-knowledge proofs, and secure data storage  
+✔ **Transparency:** Blockchain audit trails ensure trust and accountability  
+✔ **Compliance:** Designed with international data protection standards in mind  
+✔ **Scalability:** Cost-efficient and adaptable to any region or sector  
+✔ **Inclusive Design:** Tailored to the needs of those with limited access or literacy
 
-It has also been configured to have a productive dev experience out of the box in [VS Code](https://code.visualstudio.com/), see the [backend .vscode](./backend/.vscode) and [frontend .vscode](./frontend/.vscode) folders for more details.
+---
 
-## Integrating with smart contracts and application clients
+## 🚀 Features
 
-Refer to the [Civitas-contracts](projects/Civitas-contracts/README.md) folder for overview of working with smart contracts, [projects/Civitas-frontend](projects/Civitas-frontend/README.md) for overview of the React project and the [projects/Civitas-frontend/contracts](projects/Civitas-frontend/src/contracts/README.md) folder for README on adding new smart contracts from backend as application clients on your frontend. The templates provided in these folders will help you get started.
-When you compile and generate smart contract artifacts, your frontend component will automatically generate typescript application clients from smart contract artifacts and move them to `frontend/src/contracts` folder, see [`generate:app-clients` in package.json](projects/Civitas-frontend/package.json). Afterwards, you are free to import and use them in your frontend application.
+✅ **User-Friendly Dashboard** – Easy onboarding and intuitive interaction  
+✅ **Document Verification** – Secure validation of identity documents  
+✅ **Consent Management** – Grant or revoke permissions with full transparency  
+✅ **Encrypted Storage & Integrity Proofs** – Off-chain encrypted storage verified on-chain  
+✅ **Governance Tools** – Audit trails and governance tokens to promote responsible data sharing  
+✅ **Global Adaptability** – Suitable for different regulations, sectors, and languages
 
-The frontend starter also provides an example of interactions with your HelloWorldClient in [`AppCalls.tsx`](projects/Civitas-frontend/src/components/AppCalls.tsx) component by default.
+---
 
-## Next Steps
+## 📂 Project Structure
 
-You can take this project and customize it to build your own decentralized applications on Algorand. Make sure to understand how to use AlgoKit and how to write smart contracts for Algorand before you start.
+```bash
+Civitaas/
+├── civitas-frontend/        # User interface and experience
+├── civitas-contracts/      # Blockchain smart contracts for consent logic
+├── docs/                   # Guides, contributing documents, and references
+├── LICENSE                 # MIT license
+└── README.md               # Project overview and setup instructions
