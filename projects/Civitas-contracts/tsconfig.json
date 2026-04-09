@@ -19,6 +19,6 @@
     "isolatedModules": true,
     "noEmit": true
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts", "contracts/**/*.ts"],
   "exclude": ["node_modules", "dist", "coverage"]
 }
