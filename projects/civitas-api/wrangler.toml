@@ -1,0 +1,19 @@
+name = "civitas-api"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+ALGOD_SERVER = "https://testnet-api.4160.nodely.dev"
+ALGOD_PORT = "443"
+ALGOD_TOKEN = ""
+ORG_CONSENT_APP_ID = "757863505"
+USER_IDENTITY_APP_ID = "757173385"
+DX_APP_ID = "757728842"
+ADMIN_ADDRESS = "F76TVHATG2LJOMUOEFNSDJME2NRK77D2NXRM4IUE6MN7CMMGBZXUFJ3YWQ"
+FACILITATOR_URL = "https://facilitator.goplausible.xyz"
+
+# Secrets (set via `wrangler secret put`):
+# SUPABASE_URL
+# SUPABASE_KEY
+# RESEND_API_KEY
