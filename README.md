@@ -23,19 +23,58 @@
 
 ---
 
+
+**Universal Consent Layer — Privacy-First Identity Verification on Blockchain**
+
+[![Built on Algorand](https://img.shields.io/badge/Built%20on-Algorand-00D2FF?style=for-the-badge&logo=algorand&logoColor=white)](https://algorand.com)
+[![Live on TestNet](https://img.shields.io/badge/TestNet-LIVE-22C55E?style=for-the-badge)](https://dcivitas.online)
+[![AlgoKit](https://img.shields.io/badge/AlgoKit-v4.0%20Ready-0D9488?style=for-the-badge)](https://github.com/algorandfoundation/algokit-cli)
+[![x402 Protocol](https://img.shields.io/badge/x402-$0.10%20USDC-F59E0B?style=for-the-badge)](https://x402.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-6366F1?style=for-the-badge)](LICENSE)
+[![DPDP Ready](https://img.shields.io/badge/DPDP-Ready-8B5CF6?style=for-the-badge)](https://dcivitas.online/compliance)
+[![GDPR Ready](https://img.shields.io/badge/GDPR-Ready-3B82F6?style=for-the-badge)](https://dcivitas.online/compliance)
+
+[**🌐 Live App**](https://dcivitas.online) · [**📡 API Docs**](https://civitas-api.civitasv.workers.dev/v1) · [**📋 Contracts**](https://dcivitas.online/contracts) · [**🗺️ Roadmap**](https://dcivitas.online/roadmap) · [**🤖 Finsy AI Agent**](https://dcivitas.online/usecases/finsy) · [**🏦 NeoBank Demo**](https://dcivitas.online/usecases/neobank)
+
+</div>
+
+---
+
 ## What is Civitas?
 
-> **Civitas** is an on-chain consent management platform that lets users **own their identity data** and organisations **request verifiable, time-bound access** — with every action recorded immutably on Algorand.
+> **Civitas** is a **universal consent layer for personal data**. It lets users control exactly what identity data they share, with whom, for how long, and for what purpose — with cryptographic guarantees, not policy promises. Every consent action is recorded immutably on Algorand.
 
-Traditional KYC is broken: organisations collect everything, store it forever, and give users zero visibility. Civitas fixes this:
+Traditional KYC is broken: organisations collect everything, store it forever, and give users zero visibility. **81.5 crore Indians had their data leaked in 2023 alone.** Civitas fixes this at the architecture level.
 
 | Traditional KYC | Civitas |
 |---|---|
-| Share your entire Aadhaar | Share only Name + DOB — nothing else |
-| No audit trail | Every action recorded on-chain, forever |
+| Share your entire Aadhaar | Share only Name + DOB — field-level granularity |
+| Data stored on company servers forever | **Zero server-side data storage** — not even on our servers |
+| No audit trail | Every action recorded on-chain, permanent and verifiable |
 | Orgs hold data indefinitely | Time-bound consent with automatic expiry |
-| You can't revoke it | One-click revocation at any time |
+| You can't revoke it | One-click revocation — access dies in under 3 seconds |
 | Black-box process | Tamper-proof smart contract enforcement |
+
+---
+
+## 🆕 Use Cases — One Protocol, Every Industry
+
+Civitas is not a product for one industry. It's a universal consent layer that serves any sector where personal data is shared.
+
+| Industry | Use Case | Live Demo |
+|----------|----------|-----------|
+| 🏦 **Finance** | NeoBank — KYC & account opening with field-level consent, instant revocation | [Try Demo](https://dcivitas.online/usecases/neobank) |
+| 🤖 **AI Agents** | Finsy — Consent-aware AI financial agent with programmable capabilities | [Try Demo](https://dcivitas.online/usecases/finsy) |
+| 🏥 **Healthcare** | Apollo Hospitals — Patient-controlled medical record sharing (coming soon) | In Progress |
+| 💼 **Hiring** | VerifyKart — Background checks with candidate-controlled consent (coming soon) | In Progress |
+| 🏠 **Rentals** | Aapka Ghar — Tenant verification with time-bound access (coming soon) | In Progress |
+| 🎓 **Education** | Campus Edu — Credential verification reusable across institutions (coming soon) | In Progress |
+
+---
+
+## 🆕 Finsy — Consent-Aware AI Agent
+
+Finsy is an AI financial agent that starts with **zero abilities**. Each capability — Tax Planning, Investment Advice, Fraud Monitoring, Loan Negotiation, Insurance Shopping — is gated by a Civitas consent. The agent literally cannot read data until the user grants consent.
 
 ---
 
