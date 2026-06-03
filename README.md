@@ -9,20 +9,6 @@
  ╚═════╝╚═╝  ╚═══╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝
 ```
 
-**Privacy-First Consent Management on Blockchain**
-
-[![Built on Algorand](https://img.shields.io/badge/Built%20on-Algorand-00D2FF?style=for-the-badge&logo=algorand&logoColor=white)](https://algorand.com)
-[![Live on TestNet](https://img.shields.io/badge/TestNet-LIVE-22C55E?style=for-the-badge)](https://dcivitas.online)
-[![AlgoKit](https://img.shields.io/badge/AlgoKit-v4.0%20Ready-0D9488?style=for-the-badge)](https://github.com/algorandfoundation/algokit-cli)
-[![x402 Protocol](https://img.shields.io/badge/x402-$0.10%20USDC-F59E0B?style=for-the-badge)](https://x402.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-6366F1?style=for-the-badge)](LICENSE)
-
-[**🌐 Live App**](https://dcivitas.online) · [**📡 API Docs**](https://civitas-api.civitasv.workers.dev/v1) · [**📋 Contracts**](https://dcivitas.online/contracts) · [**🗺️ Roadmap**](https://dcivitas.online/roadmap)
-
-</div>
-
----
-
 
 **Universal Consent Layer — Privacy-First Identity Verification on Blockchain**
 
