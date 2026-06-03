@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import * as React from 'react'
 
 interface CopyButtonProps {
   text: string
@@ -7,7 +7,7 @@ interface CopyButtonProps {
 }
 
 const CopyButton: React.FC<CopyButtonProps> = ({ text, className = '', size = 14 }) => {
-  const [copied, setCopied] = useState(false)
+  const [copied, setCopied] = React.useState(false)
 
   const handleCopy = (e: React.MouseEvent) => {
     e.stopPropagation()
